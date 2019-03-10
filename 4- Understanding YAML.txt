@@ -1,0 +1,25 @@
+
+Ansible uses yaml to write a scripts in playbook
+# Start with "---" and ends with "..."
+# For examples
+
+--- #optioanl statement: YAML start
+xyz:
+	name: xyz 
+	rollno: 101
+	sex :male
+... # end of statement(optional)
+
+# Same thing can be write, in the followin way aswell
+xyz: {name: xyz, rollno:100, sex:male}
+
+# List 
+numbers:
+	- one
+	- two
+	- three
+	
+# list alternatives
+numbers: ['one', 'two' , 'three']
+
+
